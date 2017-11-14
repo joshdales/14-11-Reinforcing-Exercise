@@ -1,5 +1,5 @@
 var items = ["purchase domain", "install SSL certificate", "deploy site", "celebrate success"];
+console.log("Todo:");
 for(var i = 0; i < items.length; i++){
-  console.log("Todo:");
-  console.log(i);
+  console.log(i + ': ' + items[i]);
 }
